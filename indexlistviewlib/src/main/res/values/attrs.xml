@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndexListView">
+        <attr name="index_text_size" format="dimension"/>
+        <attr name="index_text_color" format="color"/>
+        <attr name="index_text_color_pressed" format="color"/>
+        <attr name="index_layout_mode" format="enum">
+            <enum name="loose" value="0"/>
+            <enum name="compact" value="1"/>
+        </attr>
+        <attr name="if_show_pop" format="boolean"/>
+        <attr name="pop_text_size" format="dimension"/>
+        <attr name="pop_text_color" format="color"/>
+        <attr name="pop_background_color" format="color"/>
+    </declare-styleable>
+</resources>
