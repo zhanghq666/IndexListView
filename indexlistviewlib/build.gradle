@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'index-listview'
+
+    publishedGroupId = 'com.zhq'
+    libraryName = 'Index-ListView'
+    artifact = 'index-listview'
+
+    libraryDescription = 'ListView with index'
+
+    siteUrl = 'https://github.com/CandyYoung/IndexListView'
+    gitUrl = 'https://github.com:CandyYoung/IndexListView.git'
+
+    libraryVersion = '0.0.1'
+
+    developerId = 'zhanghq'
+    developerName = 'Candy Young'
+    developerEmail = 'zhang.hq@hotmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
@@ -21,5 +45,7 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.4.0'
 }
+
+apply from: '/bintray.gradle'
+apply from: '/install.gradle'
