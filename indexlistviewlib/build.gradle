@@ -4,7 +4,7 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'index-listview'
 
-    publishedGroupId = 'com.zhq'
+    publishedGroupId = 'me.zhanghq'
     libraryName = 'Index-ListView'
     artifact = 'index-listview'
 
