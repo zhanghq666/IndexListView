@@ -1,1 +1,1 @@
-include ':app', ':indexlistviewlib'
+include ':app', ':index-listview'
