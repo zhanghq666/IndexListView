@@ -1,4 +1,4 @@
-package com.zhq.indexlistviewlib;
+package me.zhanghq.indexlistviewlib;
 
 import java.util.List;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.zhq.indexlistviewlib;
+package me.zhanghq.indexlistviewlib;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,13 +10,14 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
+
+import me.zhanghq.indexlistviewlib.R;
 
 import java.util.List;
 

@@ -1,8 +1,10 @@
-package com.zhq.indexlistviewlib;
+package me.zhanghq.indexlistviewlib;
 
 import android.content.Context;
 import android.view.View;
 import android.widget.TextView;
+
+import me.zhanghq.indexlistviewlib.R;
 
 
 /**

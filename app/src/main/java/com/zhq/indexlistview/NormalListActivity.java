@@ -3,8 +3,8 @@ package com.zhq.indexlistview;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.zhq.indexlistviewlib.IIndexItem;
-import com.zhq.indexlistviewlib.IndexListView;
+import me.zhanghq.indexlistviewlib.IIndexItem;
+import me.zhanghq.indexlistviewlib.IndexListView;
 
 import java.util.ArrayList;
 

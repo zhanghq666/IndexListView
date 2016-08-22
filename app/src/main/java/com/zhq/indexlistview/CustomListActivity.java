@@ -1,6 +1,5 @@
 package com.zhq.indexlistview;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -11,21 +10,18 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.zhq.indexlistview.bean.CustomItem;
-import com.zhq.indexlistviewlib.HanziToPinyin;
-import com.zhq.indexlistviewlib.IIndexGenerator;
-import com.zhq.indexlistviewlib.IItemViewGenerator;
-import com.zhq.indexlistviewlib.IndexListView;
+import me.zhanghq.indexlistviewlib.HanziToPinyin;
+import me.zhanghq.indexlistviewlib.IIndexGenerator;
+import me.zhanghq.indexlistviewlib.IItemViewGenerator;
+import me.zhanghq.indexlistviewlib.IndexListView;
 
-import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Locale;
 import java.util.Map;
-import java.util.TreeMap;
 
 /**
  * Created by zhanghq on 2016/7/16.

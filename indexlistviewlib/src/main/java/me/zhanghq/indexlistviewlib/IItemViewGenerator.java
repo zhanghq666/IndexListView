@@ -1,4 +1,4 @@
-package com.zhq.indexlistviewlib;
+package me.zhanghq.indexlistviewlib;
 
 import android.view.View;
 

@@ -1,4 +1,4 @@
-package com.zhq.indexlistviewlib;
+package me.zhanghq.indexlistviewlib;
 
 import android.text.TextUtils;
 import android.util.Log;
@@ -18,7 +18,6 @@ public final class HanziToPinyin {
 
     /**
      * Unihans array.
-     * <p/>
      * Each unihans is the first one within same pinyin when collator is zh_CN.
      */
     public static final char[] UNIHANS = {
@@ -96,7 +95,6 @@ public final class HanziToPinyin {
 
     /**
      * Pinyin array.
-     * <p/>
      * Each pinyin is corresponding to unihans of same
      * offset in the unihans array.
      */

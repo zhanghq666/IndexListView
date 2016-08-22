@@ -11,7 +11,7 @@ ext {
     libraryDescription = 'ListView with index'
 
     siteUrl = 'https://github.com/CandyYoung/IndexListView'
-    gitUrl = 'https://github.com:CandyYoung/IndexListView.git'
+    gitUrl = 'https://github.com/CandyYoung/IndexListView.git'
 
     libraryVersion = '0.0.1'
 

@@ -1,4 +1,4 @@
-package com.zhq.indexlistviewlib;
+package me.zhanghq.indexlistviewlib;
 
 /**
  * 使用{@link DefaultIndexGenerator}时，实体类须实现词接口
